@@ -1,0 +1,437 @@
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 2550px) {
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1700px) and (max-width: 2099.98px) {
+}
+
+/*// Extra large devices (large desktops, 1440px and up)*/
+@media (min-width: 1440px) and (max-width: 1699.98px) {
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner .rightimg {
+    width: 640px;
+  }
+  .banner .box {
+    padding-bottom: 150px;
+  }
+  .whatIs {
+    padding-top: 223px;
+    padding-bottom: 136px;
+  }
+  .Connecting .itemRight {
+    width: 480px;
+  }
+  .Connecting .itemLeft {
+    width: 520px;
+  }
+  .Connecting .itemLeft h2 {
+    font-size: 35px;
+    line-height: 48px;
+  }
+  header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item {
+    margin: 0 15px;
+  }
+  .Download {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .Download .itemRight {
+    position: absolute;
+    right: 0;
+    top: -80px;
+    width: 390px;
+  }
+  .Download .box h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .Download .box p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .comingSoon .itemRight #countdown .countdown-element {
+    padding: 5px 10px;
+    width: 130px;
+    margin-right: 15px;
+  }
+  .comingSoon .itemRight #countdown .countdown-element .value {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .comingSoon .itemRight #countdown .countdown-element .label {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .comingSoon .comingSoonImg {
+    width: 540px;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 991.98px) {
+  header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+  }
+  header .navbar .buttonItem {
+    text-align: center;
+  }
+  .banner .rightimg {
+    position: absolute;
+    top: auto;
+    bottom: -150px;
+    right: 0;
+    width: 350px;
+  }
+  .banner .box {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 221px;
+    padding-top: 110px;
+    text-align: center;
+  }
+  .banner .box ul {
+    padding-top: 60px;
+    justify-content: center;
+  }
+  .whatIs .col-lg-5 {
+    width: 100%;
+  }
+  .whatIs .col-lg-7 {
+    text-align: center;
+    width: 100%;
+  }
+  .whatIs .itemRight {
+    width: 100%;
+  }
+  .Connecting .itemLeft {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Connecting .itemRight {
+    width: 100%;
+    text-align: center;
+  }
+  .ForInfluencers .itemLeft img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ForInfluencers .itemRight {
+    width: 100%;
+    max-width: 100%;
+  }
+  .Campaign .tabItem .nav {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: inherit !important;
+    margin-bottom: 40px;
+  }
+  .Campaign .tabItem .nav .nav-link {
+    padding: 12px 20px 12px 20px;
+    font-size: 14px;
+    line-height: 31px;
+  }
+  .Campaign .CampaignTop {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .Download .itemRight {
+    display: none;
+  }
+  .ContactUs .itemLeft {
+    text-align: center;
+  }
+  .ContactUs .itemLeft ul {
+    padding-top: 94px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+  footer .itemEnd form {
+    width: 370px;
+    max-width: 100%;
+  }
+  .Download {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 50px 0 50px 0;
+  }
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  header {
+    .navbar-toggler {
+      border: 1px solid #fff;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
+    }
+  }
+  .comingSoon .comingSoonImg {
+    width: 300px;
+  }
+  .comingSoon .itemLeft form .form-group input {
+    margin-bottom: 24px;
+  }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) {
+  .ColorTheory .ColorTheoryTop .d-flex {
+    display: block !important;
+    text-align: center;
+    .item {
+      .itemBxo {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      margin-right: 0;
+    }
+  }
+  .comingSoon .itemRight #countdown .countdown-element {
+    padding: 10px 15px;
+    width: 125px;
+    margin-right: 10px;
+  }
+  .comingSoon .comingSoonImg {
+    display: none;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .banner .box h1 {
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: -1.08px;
+    margin-bottom: 22px;
+  }
+  .banner .box {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 250px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .banner .box p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.486px;
+  }
+  .banner .box ul li {
+    margin-right: 16px;
+    width: 150px;
+    align-self: center;
+  }
+  .banner .box ul {
+    padding-top: 35px;
+  }
+  .banner .rightimg {
+    bottom: -80px;
+    right: 0;
+    width: 280px;
+  }
+  .whatIs {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    .itemLeft {
+      img {
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  .whatIs .itemRight h2,
+  .Connecting .itemLeft h2,
+  .ForInfluencers .itemRight h2,
+  .WhyUse .WhyUseTop h2,
+  .Campaign .CampaignTop h4,
+  .pricingPlan .pricingTop h2,
+  .Download .box h2,
+  .ContactUs .itemLeft h2,
+  .simpleSteps .box .simpleTop h2,
+  .PrivacyPolicy .privacyTop h2,
+  .fontType h4,
+  .CompanySpelling h4,
+  .Guidelines h4,
+  .MediaKIT h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .WhyUse .WhyUseTop h4 {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 0;
+  }
+  .WhyUse .item .media .media-body h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .WhyUse {
+    .itemImg {
+      margin-bottom: 30px;
+      img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+    .item .media .media-body p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 0;
+    }
+  }
+  .Campaign .tabItem .nav .nav-link svg {
+    margin-right: 5px;
+  }
+  .simpleSteps .box {
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+  }
+  .simpleSteps .box .rightImg,
+  .simpleSteps .box .leftImg {
+    width: 100px;
+  }
+  .simpleSteps .box .simpleTop h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .Download {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+  }
+  .ContactUs .itemLeft ul {
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 70px;
+  }
+  .fontType .d-flex .item p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .MediaKIT .box .helaJob .itemRight {
+    margin-bottom: 25px;
+  }
+  .comingSoon .topText img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .comingSoon .topText h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .comingSoon .itemRight #countdown .countdown-element .value {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .comingSoon .itemRight #countdown .countdown-element .label {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .comingSoon .itemRight #countdown .countdown-element {
+    padding: 6px 10px;
+    width: 80px;
+    margin-right: 10px;
+  }
+  .comingSoon .itemLeft form .form-group p,
+  .comingSoon .itemLeft form .form-group2 p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .comingSoon .itemLeft form .input4 .form-check label {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .comingSoon .itemLeft form .form-group2 .form-check label {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .comingSoon .itemLeft form .form-group2 .form-check {
+    margin-bottom: 15px;
+  }
+  .comingSoon .itemLeft form button {
+    padding: 15px 50px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .comingSoon .itemLeft .copyRightText p {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 414px) {
+}
+
+/*Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+}
+
+/*Extra small devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+}
+
+/*Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+}
+
+/* 
+2560*1440
+2160*1440
+1920×1080
+1600×900
+1536×864
+1440×900
+1366×768    
+1280×720    
+1280×800    
+1280×1024   
+1024×768    
+768×1024
+ */
